@@ -1,4 +1,40 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/*  NavBar Style  */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.navigation-items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation-items li {
+  padding: 0 1rem 0 1rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.navigation-items a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
