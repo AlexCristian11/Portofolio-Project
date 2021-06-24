@@ -38,3 +38,32 @@ nav {
   color: white;
   font-weight: bold;
 }
+
+/* About Me section  */
+
+#about-me img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.about-me-text {
+  line-height: 1cm;
+}
+
+.about-me-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.about-me-text p {
+  font-size: 1rem;
+}
