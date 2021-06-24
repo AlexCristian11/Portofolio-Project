@@ -6,7 +6,11 @@
 html {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
 }
+
+/*  NavBar Style  */
 
 nav {
   display: flex;
@@ -31,6 +35,44 @@ nav {
 
 .navigation-items a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
+}
+
+/*  Contact Style  */
+
+main {
+  margin: 30px 5% 0 5%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact p {
+  margin: 10px 0 10px 0;
+}
+
+.contact-icons i {
+  padding: 10px;
+}
+
+.fab,
+.fas {
+  color: white;
+}
+
+.fab:hover,
+.fas:hover {
+  color: darkslateblue;
+}
+
+a:focus,
+a:focus {
+  color: white;
 }
