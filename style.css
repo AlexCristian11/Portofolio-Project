@@ -67,3 +67,119 @@ nav {
 .about-me-text p {
   font-size: 1rem;
 }
+
+/* Projects Section */
+
+#projects {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#project-headline {
+  margin: 80px;
+  text-align: center;
+}
+
+#project-headline h2 {
+  margin-bottom: 20px;
+}
+
+/* Project 1 */
+
+#project1 {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 48px 48px 0;
+  background-color: rgba(255, 255, 255, 0.918);
+  border-radius: 12px;
+  color: black;
+}
+
+#project1 img {
+  width: 290px;
+  height: 150px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+/* Project 2 */
+
+#project2 {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 48px 48px 0;
+  background-color: rgba(255, 255, 255, 0.918);
+  border-radius: 12px;
+  color: black;
+}
+
+#project2 img {
+  width: 290px;
+  height: 150px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+/* Project 3 */
+
+#project3 {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.918);
+  border-radius: 12px;
+  color: black;
+}
+
+#project3 img {
+  width: 290px;
+  height: 150px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.project-description h3 {
+  margin: 0 auto;
+}
+
+.project-description p {
+  padding: 1rem;
+}
+
+.project-description a {
+  margin: 0 auto;
+  color: black;
+}
+
+.project-description a:hover,
+.project-description a:focus {
+  color: darkslateblue;
+}
+
+@media only screen and (max-width: 850px) {
+  #project1 {
+    margin-right: 0;
+  }
+  #project2 {
+    margin-right: 0;
+  }
+}
