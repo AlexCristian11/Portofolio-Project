@@ -183,3 +183,28 @@ nav {
     margin-right: 0;
   }
 }
+
+/* Skills Section */
+
+#skills {
+  margin: 80px auto;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#skills-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#skills-container i {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
