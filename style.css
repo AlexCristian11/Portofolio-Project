@@ -57,6 +57,10 @@ nav {
 
 .about-me-text {
   line-height: 1cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .about-me-text h2 {
