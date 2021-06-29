@@ -39,6 +39,11 @@ nav {
   font-weight: bold;
 }
 
+.navigation-items a:hover,
+.navigation-items a:focus {
+  color: darkslateblue;
+}
+
 /* About Me section  */
 
 #about-me img {
