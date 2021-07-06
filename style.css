@@ -117,6 +117,7 @@ nav {
   height: 150px;
   margin: 30px auto;
   border-radius: 12px;
+  box-shadow: 5px 5px 5px;
 }
 
 /* Project 2 */
@@ -138,6 +139,7 @@ nav {
   height: 150px;
   margin: 30px auto;
   border-radius: 12px;
+  box-shadow: 5px 5px 5px;
 }
 
 /* Project 3 */
@@ -158,6 +160,7 @@ nav {
   height: 150px;
   margin: 30px auto;
   border-radius: 12px;
+  box-shadow: 5px 5px 5px;
 }
 
 .project-description {
