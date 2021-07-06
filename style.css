@@ -61,6 +61,7 @@ nav {
 }
 
 .about-me-text {
+  width: 60%;
   line-height: 1cm;
   display: flex;
   flex-direction: column;
@@ -237,6 +238,9 @@ nav {
   .about-me-text h2 {
     font-size: 18px;
   }
+  .about-me-text {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -249,5 +253,8 @@ nav {
   #about-me img {
     width: 250px;
     height: 250px;
+  }
+  .about-me-text {
+    width: 100%;
   }
 }
